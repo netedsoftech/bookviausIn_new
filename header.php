@@ -1,22 +1,22 @@
   <!-- Header ************************* Section start -->
-  <header class="main_navbar_fix">
+  <header class="main_navbar_fix d-none d-sm-block">
     <nav class="navbar navbar-expand-lg top_header_bar header-cl">
       <div class="container-fluid">
-        <a href="https://www.bookviaus.com/"><img src="https://www.bookviaus.in/assets/images/bookviaus_logo.webp" class="d-lg-none mobile-logo" alt="full-logo"></a>
+        <a href="https://www.bookviaus.in/"><img src="https://www.bookviaus.in/assets/images/footer-logo.png" class="d-lg-none mobile-logo" alt="full-logo"></a>
 
         <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-collapse collapse" id="navbarSupportedContent" style="">
           <div class="nav-desk-1">
-            <a href="#"><img src="	https://www.bookviaus.in/assets/images/footer-logo.png" alt="footer-logo" class="logo-350"></a>
+            <a href="index.php"><img src="https://www.bookviaus.in/assets/images/footer-logo.png" alt="footer-logo" class="logo-350"></a>
 
           </div>
 
           <div class="nav-desk-1">
           <div class="call-navbar text-center pt-1 mt-1">
-              <a href="tel:+1-888-920-7955" class="mt-2"><img width="20" height="20" src="https://img.icons8.com/ios/20/ffffff/ringer-volume.png" alt="ringer-volume">
-                +1-888-920-7955</a>
+              <a href="tel:+1800-890-8288" class="mt-2"><img width="20" height="20" src="https://img.icons8.com/ios/20/ffffff/ringer-volume.png" alt="ringer-volume">
+                + 1800-890-8288</a>
             </div>
 
             <div class="call-navbar text-center pt-1 mt-1">
@@ -58,16 +58,17 @@
                       <div class="col-md-3"></div>
                       <div class="col-md-3">
                          <span class="row mega-title">Honeymoon Packages</span>
-                        <ul class="stander">
-                    <li><a class="dropdown-item" href="#">Maldives</a></li>
-                    <li><a class="dropdown-item" href="#"> Mauritius</a></li>
-                    <li><a class="dropdown-item" href="#"> Phuket Krabi</a></li>
-                    <li><a class="dropdown-item" href="#"> Andaman</a></li>
-                    <li><a class="dropdown-item" href="#"> Kashmir</a></li>
-                    <li><a class="dropdown-item" href="#"> Manali</a></li>
-                    <li><a class="dropdown-item" href="#"> Shimla</a></li>
-                    <li><a class="dropdown-item" href="#"> Goa </a></li>
-                        </ul>
+                         <ul class="stander">
+
+<li><a class="dropdown-item" href="dubai-travel-packages"> Dubai</a></li>
+<li><a class="dropdown-item" href="europe-travel-packages"> Europe</a></li>
+<li><a class="dropdown-item" href="srilanka-travel-packages"> Srilanka</a></li>
+<li><a class="dropdown-item" href="tour-packages-of-maldives"> Maldives</a></li>
+<li><a class="dropdown-item" href="tour-packages-mauritius"> Mauritius</a></li>
+<li><a class="dropdown-item" href="thailand-travel-packages"> Thailand</a></li>
+<li><a class="dropdown-item" href="honeymoon-packages-of-singapore"> Singapore</a></li>
+<li><a class="dropdown-item" href="new-zealand-travel-packages"> New Zealand</a></li>
+</ul>
                       </div>
                      
                       <div class="col-md-3">
@@ -91,16 +92,17 @@
                       <div class="col-md-3"></div>
                       <div class="col-md-3">
                          <span class="row mega-title">Family Packages</span>
-                        <ul class="stander">
-                    <li><a class="dropdown-item" href="#">Dubai</a></li>
-                    <li><a class="dropdown-item" href="#"> Singapore</a></li>
-                    <li><a class="dropdown-item" href="#"> Malaysia</a></li>
-                    <li><a class="dropdown-item" href="#"> Vietnam</a></li>
-                    <li><a class="dropdown-item" href="#"> Baku</a></li>
-                    <li><a class="dropdown-item" href="#"> Sikkim</a></li>
-                    <li><a class="dropdown-item" href="#"> Sri Lanka</a></li>
-                    <li><a class="dropdown-item" href="#"> Uttarakhand </a></li>
-                        </ul>
+                         <ul class="stander">
+
+<li><a class="dropdown-item" href="dubai-travel-packages"> Dubai</a></li>
+<li><a class="dropdown-item" href="europe-travel-packages"> Europe</a></li>
+<li><a class="dropdown-item" href="srilanka-travel-packages"> Srilanka</a></li>
+<li><a class="dropdown-item" href="tour-packages-of-maldives"> Maldives</a></li>
+<li><a class="dropdown-item" href="tour-packages-mauritius"> Mauritius</a></li>
+<li><a class="dropdown-item" href="thailand-travel-packages"> Thailand</a></li>
+<li><a class="dropdown-item" href="honeymoon-packages-of-singapore"> Singapore</a></li>
+<li><a class="dropdown-item" href="new-zealand-travel-packages"> New Zealand</a></li>
+</ul>
                       </div>
                      
                       <div class="col-md-3">
@@ -122,12 +124,17 @@
                       <div class="col-md-3"></div>
                       <div class="col-md-3">
                          <span class="row mega-title">Holiday Packages & Holiday Deals</span>
-                        <ul class="stander">
-                    <li><a class="dropdown-item" href="#">Ladakh</a></li>
-                    <li><a class="dropdown-item" href="#"> Tribal </a></li>
-                    <li><a class="dropdown-item" href="#"> Circuit</a></li>
-                    <li><a class="dropdown-item" href="#"> Thailand </a></li>
-                        </ul>
+                         <ul class="stander">
+
+<li><a class="dropdown-item" href="dubai-travel-packages"> Dubai</a></li>
+<li><a class="dropdown-item" href="europe-travel-packages"> Europe</a></li>
+<li><a class="dropdown-item" href="srilanka-travel-packages"> Srilanka</a></li>
+<li><a class="dropdown-item" href="tour-packages-of-maldives"> Maldives</a></li>
+<li><a class="dropdown-item" href="tour-packages-mauritius"> Mauritius</a></li>
+<li><a class="dropdown-item" href="thailand-travel-packages"> Thailand</a></li>
+<li><a class="dropdown-item" href="honeymoon-packages-of-singapore"> Singapore</a></li>
+<li><a class="dropdown-item" href="new-zealand-travel-packages"> New Zealand</a></li>
+</ul>
                       </div>
                      
                       <div class="col-md-3">
@@ -151,12 +158,17 @@
                       <div class="col-md-3"></div>
                       <div class="col-md-3">
                          <span class="row mega-title"> Luxery Holiday </span>
-                        <ul class="stander">
-                    <li><a class="dropdown-item" href="#">Mauritius</a></li>
-                    <li><a class="dropdown-item" href="#"> Maldives </a></li>
-                    <li><a class="dropdown-item" href="#"> Himachal</a></li>
-                    <li><a class="dropdown-item" href="#"> Char Dham </a></li>
-                        </ul>
+                         <ul class="stander">
+
+<li><a class="dropdown-item" href="dubai-travel-packages"> Dubai</a></li>
+<li><a class="dropdown-item" href="europe-travel-packages"> Europe</a></li>
+<li><a class="dropdown-item" href="srilanka-travel-packages"> Srilanka</a></li>
+<li><a class="dropdown-item" href="tour-packages-of-maldives"> Maldives</a></li>
+<li><a class="dropdown-item" href="tour-packages-mauritius"> Mauritius</a></li>
+<li><a class="dropdown-item" href="thailand-travel-packages"> Thailand</a></li>
+<li><a class="dropdown-item" href="honeymoon-packages-of-singapore"> Singapore</a></li>
+<li><a class="dropdown-item" href="new-zealand-travel-packages"> New Zealand</a></li>
+</ul>
                       </div>
                      
                       <div class="col-md-3">
@@ -202,23 +214,14 @@
                       <div class="col-md-3">
                       <span class="row mega-title">Domestic Packages</span>
                          <ul class="stander">
+   <li> <a href="ladakh-travel-packages">Ladakh</a> </li>
+  <li><a href="himachal-travel-packages">Himachal</a> </li>
+ <li> <a href="andaman-island-travel-packages">Andaman Islands</a> </li>
+<li> <a href="kerala-travel-packages">Kerala</a> </li>
+<li> <a href="goa-travel-packages">Goa</a> </li>
+<li> <a href="rajsthan-travel-packages">Rajasthan</a> </li>
 
-
-<li><a class="dropdown-item" href="ladakh-travel-packages"> Ladakh</a></li>
-<li><a class="dropdown-item" href="himachal-travel-packages"> Himachal</a></li>
-
-
-
-<li><a class="dropdown-item" href="#"> Goa</a></li>
-<li><a class="dropdown-item" href="#"> Kerala</a></li>
-<li><a class="dropdown-item" href="#"> Kashmir</a></li>
-<li><a class="dropdown-item" href="#"> Manali</a></li>
-<li><a class="dropdown-item" href="#"> Shimla</a></li>
-<li><a class="dropdown-item" href="#"> Rajasthan</a></li>
-<li><a class="dropdown-item" href="#"> Mauritius</a></li>
-<li><a class="dropdown-item" href="#"> Phuket Krabi</a></li>
-<li><a class="dropdown-item" href="#"> Andaman Islands</a></li>
-<li><a class="dropdown-item" href="sikkim-travel-packages"> Sikkim-Gangtok-Darjeeling</a></li>
+<li><a  href="sikkim-travel-packages"> Sikkim-Gangtok-Darjeeling</a></li>
 </ul>
                       </div>
                       <div class="col-md-3">
@@ -230,8 +233,10 @@
                 </div>
               </li>
 
-
               <li class="mega-drop-down">
+               <a class="nav-link active" aria-current="page" href="bookviauspaynow">Payment</a>
+          </li>
+              <li class="mega-drop-down d-none d-sm-block">
               <div class="navi-img"></div>
               <a class="nav-link" href="#">Holiday Themes</a>
                 <div class="animated fadeIn mega-menu">
@@ -292,12 +297,30 @@
 
       <div class="modal-body">
       <div class="row">
-          <div class="col-6">
+          <div class="col-12  col-lg-6">
             <div>
               <p class="text-center fs-3">How It Works</p>
               <p><img width="30" height="30" src="https://img.icons8.com/color/30/1-circle--v1.png" alt="1-circle--v1"/> Tell us details of your holiday plan.</p>
               <p><img width="30" height="30" src="https://img.icons8.com/color/30/2-circle--v1.png" alt="2-circle--v1"/> Get multiple quotes from expert agents, <span class="mx-4">compare & customize further.</span></p>
               <p><img width="30" height="30" src="https://img.icons8.com/color/30/3-circle--v1.png" alt="3-circle--v1"/> Select & book best deal.</p>
+
+              <div class="d-flex">
+                <div class="text-center">
+                  <img class="w-50" src="assets/verify.png" alt="verify">
+                  <p class="pb-0 mb-0"><b>650+</b></p>
+                  <small>Verified Agents</small>
+                </div>
+                <div class="text-center">
+                  <img class="w-50" src="assets/verify_bookviaus.png" alt="verify_bookviaus">
+                  <p class="pb-0 mb-0"><b>Traveltriangle</b></p>
+                  <small>Verified</small>
+                </div>
+                <div class="text-center">
+                  <img class="w-50" src="assets/quality_control.png" alt="quality_control">
+                  <p class="pb-0 mb-0"><b>Stringent</b></p>
+                  <small>Quality Control</small>
+                </div>
+              </div>
               <hr>
               <p class="text-center fs-4"><img width="30" height="30" src="https://img.icons8.com/ios/30/144383/ringer-volume.png" alt="ringer-volume"> Call Us for details
               <br>
@@ -307,35 +330,44 @@
 
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-12 col-lg-6">
           <div class="text-center mb-4">
-        <img width="60" height="60" src="https://img.icons8.com/ios/60/144383/ringing-phone.png" alt="ringing-phone">
+        <img src="assets/location_form.webp" alt="location_form">
 <p class="fs-4">How do we contact you?</p>
     </div>
               <form method="post">
          <div class="row">
           <div class="col-md-6">
           <div class="form-group mb-4">
+          <img width="23" height="23" src="https://img.icons8.com/ios/23/144383/marker--v1.png" alt="marker--v1" class="icons_search mx-2">
+                <input type="text" class="form-control icons_search_input inputbox " name="from" placeholder="From" >
+              </div>
+
+          <div class="form-group mb-4">
                 <img width="23" height="23" src="https://img.icons8.com/ios/23/144383/user--v1.png" class="icons_search mx-2" alt="user--v1">
-                <input type="text" class="form-control icons_search_input inputbox autocomplete" name="name" placeholder="Your Full Name" required="">
+                <input type="text" class="form-control icons_search_input inputbox " name="name" placeholder="Your Full Name" required>
               </div>       
 
               <div class="form-group  mb-4">
                 <img width="23" height="23" class="icons_search mx-2" src="https://img.icons8.com/external-obvious-line-kerismaker/23/144383/external-business-office-stationery-line-obvious-line-kerismaker-42.png" alt="external-business-office-stationery-line-obvious-line-kerismaker-42">
-                <input type="email" class="form-control icons_search_input inputbox autocomplete" name="email" placeholder="Your Mail" autocomplete="off" required="">
+                <input type="email" class="form-control icons_search_input inputbox " name="email" placeholder="Your Mail"  required="">
               </div>
 
           </div>
           <div class="col-md-6">
+          <div class="form-group mb-4">
+          <img width="23" height="23" src="https://img.icons8.com/ios/23/144383/marker--v1.png" alt="marker--v1" class="icons_search mx-2">
+                <input type="text" class="form-control icons_search_input inputbox " name="to" placeholder="To" >
+              </div>
 
             <div class="form-group mb-4 ">
-                <img width="23" height="23" src="https://img.icons8.com/ios/23/144383/user--v1.png" class="icons_search mx-2" alt="user--v1">
-                <input type="tel" class="form-control icons_search_input inputbox autocomplete" name="phone" placeholder="Your Phone Number" minlength="10" maxlength="10" size="10" required="">
+                <img width="23" height="23" src="https://img.icons8.com/wired/23/144383/phone.png" alt="phone" class="icons_search mx-2">
+                <input type="tel" class="form-control icons_search_input inputbox " name="phone" placeholder="Phone Number" minlength="10" maxlength="10" size="10" required="">
               </div>
 
             <div class="form-group  mb-4">
-                <img width="23" height="23" src="https://img.icons8.com/ios/23/144383/marker--v1.png" alt="marker--v1" class="icons_search mx-2">
-                <input type="text" class="form-control icons_search_input inputbox autocomplete" name="destination" placeholder="Drop Destination" autocomplete="off">
+            <img width="23" height="23" src="https://img.icons8.com/ios/23/144383/passenger-with-baggage.png" class="icons_search mx-2" alt="passenger-with-baggage">
+                <input type="text" class="form-control icons_search_input inputbox " name="destination" placeholder="Days" >
               </div>
           </div>
 
@@ -667,6 +699,10 @@ a.toggle-menu{
 .visit-my-blog {
     background: #379fe1;
 }
+
+.navbar-dark{
+  background-color: #144383!important;
+}
 </style>
 
 <script>
@@ -678,5 +714,232 @@ a.toggle-menu{
  
 });
 
+
+
 </script>
 
+
+
+<!-- mobile navbar start -->
+<nav class="navbar navbar-dark  fixed-top d-block d-sm-none">
+  <div class="container-fluid">
+    <a href="https://www.bookviaus.in/"><img src="https://www.bookviaus.in/assets/images/footer-logo.png" class="d-lg-none mobile-logo" alt="full-logo"></a>
+        <button class="navbar-toggler bg-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-start bg-body-tertiary" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+        <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Honeymoon Packages
+            </a>
+            <ul class="dropdown-menu dropdown-menu-tertiary">
+              <li><a class="dropdown-item text-black" href="dubai-travel-packages"> Dubai</a></li>
+              <li><a class="dropdown-item text-black" href="europe-travel-packages"> Europe</a></li>
+              <li><a class="dropdown-item text-black" href="srilanka-travel-packages"> Srilanka</a></li>
+              <li><a class="dropdown-item text-black" href="tour-packages-of-maldives"> Maldives</a></li>
+              <li><a class="dropdown-item text-black" href="tour-packages-mauritius"> Mauritius</a></li>
+              <li><a class="dropdown-item text-black" href="thailand-travel-packages"> Thailand</a></li>
+              <li><a class="dropdown-item text-black" href="honeymoon-packages-of-singapore"> Singapore</a></li>
+              <li><a class="dropdown-item text-black" href="new-zealand-travel-packages"> New Zealand</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Family Packages
+            </a>
+            <ul class="dropdown-menu dropdown-menu-tertiary">
+              <li><a class="dropdown-item text-black" href="dubai-travel-packages"> Dubai</a></li>
+<li><a class="dropdown-item text-black" href="europe-travel-packages"> Europe</a></li>
+<li><a class="dropdown-item text-black" href="srilanka-travel-packages"> Srilanka</a></li>
+<li><a class="dropdown-item text-black" href="tour-packages-of-maldives"> Maldives</a></li>
+<li><a class="dropdown-item text-black" href="tour-packages-mauritius"> Mauritius</a></li>
+<li><a class="dropdown-item text-black" href="thailand-travel-packages"> Thailand</a></li>
+<li><a class="dropdown-item text-black" href="honeymoon-packages-of-singapore"> Singapore</a></li>
+<li><a class="dropdown-item text-black" href="new-zealand-travel-packages"> New Zealand</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Holiday Packages
+            </a>
+            <ul class="dropdown-menu dropdown-menu-tertiary">
+              <li><a class="dropdown-item text-black" href="dubai-travel-packages"> Dubai</a></li>
+<li><a class="dropdown-item text-black" href="europe-travel-packages"> Europe</a></li>
+<li><a class="dropdown-item text-black" href="srilanka-travel-packages"> Srilanka</a></li>
+<li><a class="dropdown-item text-black" href="tour-packages-of-maldives"> Maldives</a></li>
+<li><a class="dropdown-item text-black" href="tour-packages-mauritius"> Mauritius</a></li>
+<li><a class="dropdown-item text-black" href="thailand-travel-packages"> Thailand</a></li>
+<li><a class="dropdown-item text-black" href="honeymoon-packages-of-singapore"> Singapore</a></li>
+<li><a class="dropdown-item text-black" href="new-zealand-travel-packages"> New Zealand</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Luxery Holiday 
+            </a>
+            <ul class="dropdown-menu dropdown-menu-tertiary">
+              <li><a class="dropdown-item text-black" href="dubai-travel-packages"> Dubai</a></li>
+              <li><a class="dropdown-item text-black" href="europe-travel-packages"> Europe</a></li>
+              <li><a class="dropdown-item text-black" href="srilanka-travel-packages"> Srilanka</a></li>
+              <li><a class="dropdown-item text-black" href="tour-packages-of-maldives"> Maldives</a></li>
+              <li><a class="dropdown-item text-black" href="tour-packages-mauritius"> Mauritius</a></li>
+              <li><a class="dropdown-item text-black" href="thailand-travel-packages"> Thailand</a></li>
+              <li><a class="dropdown-item text-black" href="honeymoon-packages-of-singapore"> Singapore</a></li>
+              <li><a class="dropdown-item text-black" href="new-zealand-travel-packages"> New Zealand</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              International Packages
+            </a>
+            <ul class="dropdown-menu dropdown-menu-tertiary">
+              <li><a class="dropdown-item text-black" href="dubai-travel-packages"> Dubai</a></li>
+              <li><a class="dropdown-item text-black" href="europe-travel-packages"> Europe</a></li>
+<li><a class="dropdown-item text-black" href="srilanka-travel-packages"> Srilanka</a></li>
+<li><a class="dropdown-item text-black" href="tour-packages-of-maldives"> Maldives</a></li>
+<li><a class="dropdown-item text-black" href="tour-packages-mauritius"> Mauritius</a></li>
+<li><a class="dropdown-item text-black" href="thailand-travel-packages"> Thailand</a></li>
+<li><a class="dropdown-item text-black" href="honeymoon-packages-of-singapore"> Singapore</a></li>
+<li><a class="dropdown-item text-black" href="new-zealand-travel-packages"> New Zealand</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              International Packages
+            </a>
+            <ul class="dropdown-menu dropdown-menu-tertiary">
+              <li> <a href="ladakh-travel-packages">Ladakh</a> </li>
+              <li><a href="himachal-travel-packages">Himachal</a> </li>
+             <li> <a href="andaman-island-travel-packages">Andaman Islands</a> </li>
+            <li> <a href="kerala-travel-packages">Kerala</a> </li>
+            <li> <a href="goa-travel-packages">Goa</a> </li>
+            <li> <a href="rajsthan-travel-packages">Rajasthan</a> </li>
+            <li><a  href="sikkim-travel-packages"> Sikkim-Gangtok-Darjeeling</a></li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item dropdown">
+            <div class="navi-img"></div>
+            <a class="nav-link header-btn" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">Plan My Holiday </a>
+              </li>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg modal-dialog-centered">
+  <div class="modal-content">
+  <img class="modal_close_btn" data-bs-dismiss="modal" aria-label="Close" width="40" height="40" src="https://img.icons8.com/color/40/delete-sign--v1.png" alt="delete-sign--v1"/>
+
+    <div class="modal-body">
+    <div class="row">
+        <!-- <div class="col-12  col-lg-6">
+          <div>
+            <p class="text-center fs-3">How It Works</p>
+            <p><img width="30" height="30" src="https://img.icons8.com/color/30/1-circle--v1.png" alt="1-circle--v1"/> Tell us details of your holiday plan.</p>
+            <p><img width="30" height="30" src="https://img.icons8.com/color/30/2-circle--v1.png" alt="2-circle--v1"/> Get multiple quotes from expert agents, <span class="mx-4">compare & customize further.</span></p>
+            <p><img width="30" height="30" src="https://img.icons8.com/color/30/3-circle--v1.png" alt="3-circle--v1"/> Select & book best deal.</p>
+
+            <div class="d-flex">
+              <div class="text-center">
+                <img class="w-50" src="assets/verify.png" alt="verify">
+                <p class="pb-0 mb-0"><b>650+</b></p>
+                <small>Verified Agents</small>
+              </div>
+              <div class="text-center">
+                <img class="w-50" src="assets/verify_bookviaus.png" alt="verify_bookviaus">
+                <p class="pb-0 mb-0"><b>Traveltriangle</b></p>
+                <small>Verified</small>
+              </div>
+              <div class="text-center">
+                <img class="w-50" src="assets/quality_control.png" alt="quality_control">
+                <p class="pb-0 mb-0"><b>Stringent</b></p>
+                <small>Quality Control</small>
+              </div>
+            </div>
+            <hr>
+            <p class="text-center fs-4"><img width="30" height="30" src="https://img.icons8.com/ios/30/144383/ringer-volume.png" alt="ringer-volume"> Call Us for details
+            <br>
+            <a href="tel:+1-888-920-7955" class="mt-2 text-black text-center fs-6">
+              +1-888-920-7955</a></p>
+            
+
+          </div>
+        </div> -->
+        <div class="col-12 col-lg-6">
+        <div class="text-center mb-4">
+      <img src="assets/location_form.webp" alt="location_form">
+<p class="fs-4">How do we contact you?</p>
+  </div>
+            <form method="post">
+       <div class="row">
+        <div class="col-md-6">
+        <div class="form-group mb-4">
+        <img width="23" height="23" src="https://img.icons8.com/ios/23/144383/marker--v1.png" alt="marker--v1" class="icons_search mx-2">
+              <input type="text" class="form-control icons_search_input inputbox " name="from" placeholder="From" >
+            </div>
+
+        <div class="form-group mb-4">
+              <img width="23" height="23" src="https://img.icons8.com/ios/23/144383/user--v1.png" class="icons_search mx-2" alt="user--v1">
+              <input type="text" class="form-control icons_search_input inputbox " name="name" placeholder="Your Full Name" required>
+            </div>       
+
+            <div class="form-group  mb-4">
+              <img width="23" height="23" class="icons_search mx-2" src="https://img.icons8.com/external-obvious-line-kerismaker/23/144383/external-business-office-stationery-line-obvious-line-kerismaker-42.png" alt="external-business-office-stationery-line-obvious-line-kerismaker-42">
+              <input type="email" class="form-control icons_search_input inputbox " name="email" placeholder="Your Mail"  required="">
+            </div>
+
+        </div>
+        <div class="col-md-6">
+        <div class="form-group mb-4">
+        <img width="23" height="23" src="https://img.icons8.com/ios/23/144383/marker--v1.png" alt="marker--v1" class="icons_search mx-2">
+              <input type="text" class="form-control icons_search_input inputbox " name="to" placeholder="To" >
+            </div>
+
+          <div class="form-group mb-4 ">
+              <img width="23" height="23" src="https://img.icons8.com/wired/23/144383/phone.png" alt="phone" class="icons_search mx-2">
+              <input type="tel" class="form-control icons_search_input inputbox " name="phone" placeholder="Phone Number" minlength="10" maxlength="10" size="10" required="">
+            </div>
+
+          <div class="form-group  mb-4">
+          <img width="23" height="23" src="https://img.icons8.com/ios/23/144383/passenger-with-baggage.png" class="icons_search mx-2" alt="passenger-with-baggage">
+              <input type="text" class="form-control icons_search_input inputbox " name="destination" placeholder="Days" >
+            </div>
+        </div>
+
+      
+        
+        <div class="col-lg-12 ">
+          <div class="form-group ">
+<button type="submit" name="submit" class="btn btn-submit form-control" >Plan My Holidays</button>
+          </div>
+        </div>
+       </div>
+      </form>
+        </div>
+    </div>
+    </div>
+   
+  </div>
+</div>
+</div>
+
+<!-- modal end -->
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- mobile navbar end -->

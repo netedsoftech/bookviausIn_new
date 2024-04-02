@@ -458,19 +458,19 @@ input:focus {
   display: block;
 }
 
-.autocomplete-wrapper,
-.autocomplete-wrapper2 {
+.-wrapper,
+.-wrapper2 {
   position: relative;
   float: left;
   width: 100%;
 }
-.autocomplete-wrapper input,
-.autocomplete-wrapper2 input {
+.-wrapper input,
+.-wrapper2 input {
   width: 100%;
 }
 
-.autocomplete-results,
-.autocomplete-results2 {
+.-results,
+.-results2 {
   position: absolute;
   background: white;
   z-index: 9999;
@@ -484,51 +484,51 @@ input:focus {
   width: 100%;
 }
 
-.autocomplete-result,
-.autocomplete-result2 {
+.-result,
+.-result2 {
   padding: 12px 15px;
   border-bottom: solid 1px #eee;
   cursor: pointer;
 }
 
-.autocomplete-result:last-child,
-.autocomplete-result2:last-child {
+.-result:last-child,
+.-result2:last-child {
   border-bottom-width: 0;
 }
 
-.autocomplete-location {
+.-location {
   opacity: 0.8;
   font-size: smaller;
 }
 
-.autocomplete-results[data-highlight="0"] > :nth-child(1) {
+.-results[data-highlight="0"] > :nth-child(1) {
   color: white;
   background: #144383;
   border-bottom-color: #144383;
   outline: solid 1px #144383;
 }
 
-.autocomplete-results2[data-highlight="0"] > :nth-child(1) {
+.-results2[data-highlight="0"] > :nth-child(1) {
   color: white;
   background: #144383;
   border-bottom-color: #144383;
   outline: solid 1px #144383;
 }
 
-.autocomplete-results[data-highlight="1"] > :nth-child(2),
-.autocomplete-results[data-highlight="2"] > :nth-child(3),
-.autocomplete-results[data-highlight="3"] > :nth-child(4),
-.autocomplete-results[data-highlight="4"] > :nth-child(5) {
+.-results[data-highlight="1"] > :nth-child(2),
+.-results[data-highlight="2"] > :nth-child(3),
+.-results[data-highlight="3"] > :nth-child(4),
+.-results[data-highlight="4"] > :nth-child(5) {
   color: white;
   background: #144383;
   border-bottom-color: #144383;
   outline: solid 1px #144383;
 }
 
-.autocomplete-results2[data-highlight="1"] > :nth-child(2),
-.autocomplete-results2[data-highlight="2"] > :nth-child(3),
-.autocomplete-results2[data-highlight="3"] > :nth-child(4),
-.autocomplete-results2[data-highlight="4"] > :nth-child(5) {
+.-results2[data-highlight="1"] > :nth-child(2),
+.-results2[data-highlight="2"] > :nth-child(3),
+.-results2[data-highlight="3"] > :nth-child(4),
+.-results2[data-highlight="4"] > :nth-child(5) {
   color: white;
   background: #144383;
   border-bottom-color: #144383;
@@ -563,9 +563,15 @@ input:focus {
   padding-bottom: 10px;
 }
 
+.heading_left_area h3 span {
+  display: inline-block;
+  border-bottom: 1px solid #144383;
+  padding-bottom: 10px;
+}
+
 @media only screen and (min-width: 1200px) {
   .top_deal_country {
-    font-size: 18px!important;
+    font-size: 16px!important;
   }
  
 }
@@ -583,16 +589,63 @@ input:focus {
   font-size:15px!important;
 }
 
+.modal_close_btn {
+  position: relative;
+  left: 90%!important;
+  bottom: 10px!important;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.modal-content {
+  background: linear-gradient(to bottom, #ededed 50%, #ffffff 50%)!important;
+}
+
 }
 
 
 .top_deal_country {
-  position: absolute;
-  font-size: 22px;
-  z-index: 999;
-  bottom: 20px;
-  border-bottom: 1px solid;
+    position: absolute;
+    font-size: 22px;
+    z-index: 999;
+    /* top: 10px; */
+    font-weight: 600;
+    /* border-top: 1px solid #FFC107; */
+    background-color: #FFC107;
+    /* border-bottom: 1px solid #FFC107;*/
   }
+
+  .top_deal_country::before {
+    content: " ";
+    position: absolute;
+    border-left: 16px solid rgb(250, 194, 46);
+    border-top: 0px solid transparent;
+    border-bottom: 12px solid transparent;
+    width: 0px;
+    display: block;
+    height: 0px;
+    top: 0px;
+    right: -15px;
+}
+
+.top_deal_country > a{
+  color: #000 !important;
+}
+
+  .top_deal_country::after {
+    content: " ";
+    position: absolute;
+    border-left: 16px solid rgb(250, 194, 46);
+    border-top: 12px solid transparent;
+    border-bottom: 0px solid transparent;
+    width: 0px;
+    height: 0px;
+    display: block;
+    bottom: 0px;
+    right: -15px;
+}
  
   .top_deal_country_offers {
     position: absolute;
@@ -613,12 +666,13 @@ input:focus {
   
   .top_deal_country_img img {
     transition: transform 0.9s ease;
-    /* filter: blur(1px); */
+    filter: brightness(0.9);
   }
   
   .top_deal_country_img:hover img {
     transform: scale(1.1);
     /* filter: grayscale(0); */
+    filter: brightness(1);
   }
 
 /* imagination  ************************* Section end */
@@ -650,6 +704,8 @@ input:focus {
     
     .card-main{
       position: relative;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      border-radius: 10px;
     }
     
     .card-para{
@@ -682,6 +738,7 @@ input:focus {
     
     .review_rating {
       color: #144383;
+      text-decoration: none;
     }
     
     /* Explore  ************************* Section end */
@@ -848,6 +905,7 @@ ul.icon-des li {
 
 .holiday_theme_section p > small{
   color: #858585;
+  display: block;
 }
 
 .dropdown-main{
@@ -866,4 +924,181 @@ ul.icon-des li {
 
 .modal-content{
   background: linear-gradient(to left, #ffffff 50%, #ededed 50%);
+}
+
+
+ /* india page  ************************* Section start */
+
+ .tour-price {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 15px;
+}
+
+
+.tour-price h3 {
+  font-size: 28px;
+  color: #144383;
+  line-height: 1.25;
+  font-weight: 700;
+  letter-spacing: .75px;
+  margin-bottom: 0;
+}
+
+/* india scroll Itinerary page  ************************* Section start */
+
+.scrollspy-example {
+  height: 200px;
+  margin-top: 0.5rem;
+  overflow: auto;
+}
+
+
+.accordions-button{
+    padding: 5px 30px 10px 10px!important;
+    color: #000!important;
+    display: block!important;
+    text-decoration: none;
+    border-bottom: 1px solid #144383!important;
+}
+
+
+
+
+.iframe{
+border-radius: 10px;
+}
+
+/* @media(min-width:1200px){
+.iframe{
+   /* width:1140px; 
+   width: 856px;
+}
+} */
+
+@media(max-width:768px){
+.iframe{
+   width:370px;
+}
+}
+
+/* FAQ start */
+details {
+font-size: 1rem;
+background: #F6FAFF;
+border-radius: 8px;
+border: 1px solid #C3DEFF;
+transition: border-color 0.3s ease-in-out;
+}
+
+details:hover {
+border-color: #A4A1FF;
+}
+
+summary {
+user-select: none;
+cursor: pointer;
+font-weight: 600;
+display: flex!important;
+align-items: center;
+padding: 1em;
+}
+
+summary::-webkit-details-marker {
+display: none;
+}
+
+.faq-title {
+color: #1C2035;
+flex-grow: 1;
+opacity: 0.65;
+transition: opacity 250ms ease-in-out;
+}
+
+summary:hover .faq-title {
+opacity: 1;
+}
+
+
+
+.faq-content {
+color: #303651;
+padding: 0.2em 1em 1em 1em;
+font-weight: 300;
+line-height: 1.5;
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.3s ease-out;
+}
+
+details[open] .faq-content {
+max-height: 1000px;
+}
+
+.expand-icon {
+margin-left: auto;
+transition: transform 150ms ease-out;
+}
+
+details[open] .icon-tabler-circle-plus {
+display: none;
+}
+
+details:not([open]) .icon-tabler-circle-minus {
+display: none;
+}
+
+summary h4{
+font-size: 16px;
+}
+
+
+.faq-container .container > h3, h4 {
+font-size: 16px;
+margin-bottom: 15px;
+margin-top: 10px;
+font-weight: 600;
+}
+
+
+/* FAQ end */
+
+/* banner section start */
+.section-main-bg{
+  background-image: linear-gradient(270deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.3) 101.02%), url(https://demo-egenslab.b-cdn.net/html/triprex/preview/assets/img/innerpage/inner-banner-bg.png);
+}
+
+
+.banner-section .banner-section-content{
+height: 300px;
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%,40%);
+text-align: center;
+color: #fff;
+}
+
+.banner-section-content h6 > a{
+  color: #ce0018;
+  text-decoration: none;
+}
+/* banner section end */
+/* india scroll Itinerary page  ************************* Section end */
+/* india page  ************************* Section end */
+
+.honeymoon-banner{
+      /* border-bottom: 10px solid #f3f3f3; */
+      border-radius: 10px;
+}
+
+.equal{
+  width:100%;
+  height:400px;
+  object-fit:cover;
+  object-position:50% 50%;
+}
+
+footer{
+  background-color: aliceblue;
 }

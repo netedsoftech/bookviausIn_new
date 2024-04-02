@@ -15,30 +15,30 @@
             <div class="col-lg-2 col-6 mb-2">
               <div class="form-group">
                 <img width="23" height="23" src="https://img.icons8.com/ios/23/144383/marker--v1.png" alt="marker--v1" class="icons_search mx-2">
-                <input type="text" class="form-control icons_search_input inputbox autocomplete" name="destination"  placeholder="Drop Destination" autocomplete="off" />
+                <input type="text" class="form-control icons_search_input inputbox " name="destination"  placeholder="Drop Destination" ="off" />
               </div>
             </div>
             <div class="col-lg-2 col-6 mb-2">
               <img width="23" height="23" class="icons_search mx-2" src="https://img.icons8.com/external-others-phat-plus/23/144383/external-business-business-outline-others-phat-plus-15.png" alt="external-business-business-outline-others-phat-plus-15">
-              <input id="depart" class="form-control icons_search_input click" name="travelDate" placeholder="Departing" autocomplete="off" />
+              <input id="depart" class="form-control icons_search_input click" name="travelDate" placeholder="Departing" ="off" />
             </div>
 
             <div class="col-lg-2 col-6 mb-2">
               <div class="form-group ">
                 <img width="23" height="23" src="https://img.icons8.com/ios/23/144383/user--v1.png" class="icons_search mx-2" alt="user--v1">
-                <input type="text" class="form-control icons_search_input inputbox autocomplete" name="name"  placeholder="Your Full Name" required>
+                <input type="text" class="form-control icons_search_input inputbox " name="name"  placeholder="Your Full Name" required>
               </div>
             </div>
             <div class="col-lg-2 col-6 mb-2">
               <div class="form-group ">
-                <img width="23" height="23" src="https://img.icons8.com/ios/23/144383/user--v1.png" class="icons_search mx-2" alt="user--v1">
-                <input type="tel" class="form-control icons_search_input inputbox autocomplete" name="phone"  placeholder="Your Phone Number" minlength="10" maxlength="10" size="10" required>
+              <img width="23" height="23" src="https://img.icons8.com/wired/23/144383/phone.png" alt="phone" class="icons_search mx-2">
+                <input type="tel" class="form-control icons_search_input inputbox " name="phone"  placeholder="Phone Number" minlength="10" maxlength="10" size="10" required>
               </div>
             </div>
             <div class="col-lg-2 col-6 mb-2">
               <div class="form-group">
                 <img width="23" height="23" class="icons_search mx-2" src="https://img.icons8.com/external-obvious-line-kerismaker/23/144383/external-business-office-stationery-line-obvious-line-kerismaker-42.png" alt="external-business-office-stationery-line-obvious-line-kerismaker-42">
-                <input type="email" class="form-control icons_search_input inputbox autocomplete" name="email"  placeholder="Your Mail" autocomplete="off" required>
+                <input type="email" class="form-control icons_search_input inputbox " name="email"  placeholder="Your Mail" ="off" required>
               </div>
             </div>
 
@@ -144,12 +144,12 @@
         var ac = $("#sourceLocation").on("click", function(e) {
           e.stopPropagation();
         }).on("focus keyup", search).on("keydown", onKeyDown);
-        var wrap = $(" < div > ").addClass("autocomplete-wrapper").insertBefore(ac).append(ac);
-            var list = $(" < div > ").addClass("autocomplete-results").on("click", ".autocomplete-result", function(e) {
+        var wrap = $(" < div > ").addClass("-wrapper").insertBefore(ac).append(ac);
+            var list = $(" < div > ").addClass("-results").on("click", ".-result", function(e) {
                   e.preventDefault();
                   e.stopPropagation();
                   selectIndex($(this).data("index"));
-                }).appendTo(wrap); $(document).on("mouseover", ".autocomplete-result", function(e) {
+                }).appendTo(wrap); $(document).on("mouseover", ".-result", function(e) {
                   var index = parseInt($(this).data("index"), 10);
                   if (!isNaN(index)) {
                     list.attr("data-highlight", index);
@@ -181,11 +181,11 @@
                     numResults = results.length;
                     // console.log("data is here " + numResults); return false;
                     var divs = results.map(function(r, i) {
-                      return (' < div class = "autocomplete-result"
+                      return (' < div class = "-result"
                         data - index = "' +
                         i + '">' + " < div > < b > " +
                         r.iata + "</b> - " + r.name + " < /div>" +
-                        ' < div class = "autocomplete-location" > ' +
+                        ' < div class = "-location" > ' +
                         r.city + ", " + r.country + "</div>" + " < /div>");
                     });
                     selectedIndex = -1;
@@ -228,12 +228,12 @@
                 var ac2 = $("#destinationLocation").on("click", function(e) {
                   e.stopPropagation();
                 }).on("focus keyup", search2).on("keydown", onKeyDown2);
-                var wrap2 = $(" < div > ").addClass("autocomplete-wrapper2").insertBefore(ac2).append(ac2);
-                    var list2 = $(" < div > ").addClass("autocomplete-results2").on("click", ".autocomplete-result2", function(e) {
+                var wrap2 = $(" < div > ").addClass("-wrapper2").insertBefore(ac2).append(ac2);
+                    var list2 = $(" < div > ").addClass("-results2").on("click", ".-result2", function(e) {
                           e.preventDefault();
                           e.stopPropagation();
                           selectIndex2($(this).data("index"));
-                        }).appendTo(wrap2); $(document).on("mouseover", ".autocomplete-result2", function(e) {
+                        }).appendTo(wrap2); $(document).on("mouseover", ".-result2", function(e) {
                           var index = parseInt($(this).data("index"), 10);
                           if (!isNaN(index)) {
                             list2.attr("data-highlight", index);
@@ -264,11 +264,11 @@
                             results2 = _.take(fuse.search(ac2.val()), 7);
                             numResults2 = results2.length;
                             var divs = results2.map(function(r, i) {
-                              return (' < div class = "autocomplete-result2"
+                              return (' < div class = "-result2"
                                 data - index = "' +
                                 i + '">' + " < div > < b > " +
                                 r.iata + "</b> - " + r.name + " < /div>" +
-                                ' < div class = "autocomplete-location" > ' +
+                                ' < div class = "-location" > ' +
                                 r.city + ", " + r.country + "</div>" + " < /div>");
                             });
                             selectedIndex2 = -1;

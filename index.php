@@ -155,8 +155,8 @@
           </div>
           <div class="col-6 col-lg-3 mt-3">
             <div class="top_deal_country_img">
-              <span class="top_deal_country mt-3 mx-2 text-white"
-                ><a href="#" class="text-white" target="_blank"
+              <span class="top_deal_country mt-3 px-2"
+                ><a href="#"  target="_blank"
                   >Discount 30% On All Your Trips</a
                 ></span
               >
@@ -171,25 +171,26 @@
 
           <div class="col-6 col-lg-3 mt-3">
             <div class="top_deal_country_img">
-              <span class="top_deal_country mt-3 mx-2 text-white"
-                ><a href="#" class="text-white" target="_blank">
-                  Travel around the world</a
+              <span class="top_deal_country mt-3 px-2"
+                ><a href="international_packages.php"  >
+                  International Packages</a
                 ></span
               >
-              <a href="#" target="_blank"
+              
+              <a href="international_packages.php" target="_blank"
                 ><img
                   class="w-100 rounded"
                   src="assets/img/img2.png"
-                  alt="europe_"
+                  alt="img2"
               /></a>
             </div>
           </div>
 
           <div class="col-6 col-lg-3 mt-3">
             <div class="top_deal_country_img">
-              <span class="top_deal_country mt-3 mx-2 text-white"
-                ><a href="#" class="text-white" target="_blank"
-                  >Luxury resorts top deals</a
+              <span class="top_deal_country mt-3 px-2"
+                ><a href="#"  target="_blank"
+                  >Domestic Packages</a
                 ></span
               >
               <a href="#" target="_blank"
@@ -220,93 +221,216 @@
         <div class="owl-carousel">
           <div class="card card-section mt-4">
             <div class="card-main top_deal_country_img">
-              <img class="w-100" src="assets/tab-img/hotel1.png" alt="hotel1" />
-              <p class="card-para text-white px-2">
-                <img
-                  width="18"
-                  height="18"
-                  src="https://img.icons8.com/material/18/ffffff/marker--v1.png"
-                  alt="marker--v1"
-                />New beach, Thailand
-              </p>
-              <div class="discount_tab">
-                <span>40%</span>
-              </div>
+              <img class="w-100" src="assets/images/Andaman.webp" alt="Andaman" />
             </div>
 
-            <h6 class="px-2 mt-2">Kantua hotel, Thailand</h6>
-            <p class="px-2 pt-2">
-              <span class="review_rating">4.8/5 Excellent</span>
-              <span class="review_count">(1214 reviewes)</span>
+            <h6 class="px-2 mt-2">Andaman</h6>
+            <div class="d-flex justify-content-between p-2 holiday_theme_section">
+               <p >
+               <small>Starting from:</small>
+              <span class="review_rating">INR 13,000* / (PP)</span>
+              <!-- <span class="review_count">(1214 reviewes)</span> -->
             </p>
+            <a href="#" class="review_rating mt-4">View Packages</a>
+           </div>
           </div>
 
           <div class="card card-section mt-4">
             <div class="card-main top_deal_country_img">
-              <img class="w-100" src="assets/tab-img/hotel2.png" alt="hotel1" />
-              <p class="card-para text-white px-2">
-                <img
-                  width="18"
-                  height="18"
-                  src="https://img.icons8.com/material/18/ffffff/marker--v1.png"
-                  alt="marker--v1"
-                />New beach, Thailand
-              </p>
-            </div>
-
-            <h6 class="px-2 mt-2">Kantua hotel, Thailand</h6>
-            <p class="px-2 pt-2">
-              <span class="review_rating">4.8/5 Excellent</span>
-              <span class="review_count">(1214 reviewes)</span>
-            </p>
-          </div>
-
-          <div class="card card-section mt-4">
-            <div class="card-main top_deal_country_img">
-              <img class="w-100" src="assets/tab-img/hotel3.png" alt="hotel1" />
-              <p class="card-para text-white px-2">
-                <img
-                  width="18"
-                  height="18"
-                  src="https://img.icons8.com/material/18/ffffff/marker--v1.png"
-                  alt="marker--v1"
-                />New beach, Thailand
-              </p>
-              <div class="discount_tab">
-                <span>40%</span>
-              </div>
-            </div>
-
-            <h6 class="px-2 mt-2">Kantua hotel, Thailand</h6>
-            <p class="px-2 pt-2">
-              <span class="review_rating">4.8/5 Excellent</span>
-              <span class="review_count">(1214 reviewes)</span>
-            </p>
-          </div>
-
-          <div class="card card-section mt-4">
-            <div class="card-main top_deal_country_img">
-              <img class="w-100" src="assets/tab-img/hotel4.png" alt="hotel1" />
-              <p class="card-para text-white px-2">
-                <img
-                  width="18"
-                  height="18"
-                  src="https://img.icons8.com/material/18/ffffff/marker--v1.png"
-                  alt="marker--v1"
-                />New beach, Thailand
-              </p>
-              <div class="discount_tab">
+              <img class="w-100" src="assets/images/bali.webp" alt="bali" />
+                 <!-- <div class="discount_tab">
                 <span>30%</span>
-              </div>
+              </div> -->
             </div>
 
-            <h6 class="px-2 mt-2">Kantua hotel, Thailand</h6>
-            <p class="px-2 pt-2">
-              <span class="review_rating">4.8/5 Excellent</span>
-              <span class="review_count">(1214 reviewes)</span>
+            <h6 class="px-2 mt-2">Bali</h6>
+            <div class="d-flex justify-content-between p-2 holiday_theme_section">
+               <p >
+               <small>Starting from:</small>
+              <span class="review_rating">INR 14,400* / (PP)</span>
+              <!-- <span class="review_count">(1214 reviewes)</span> -->
             </p>
+            <a href="#" class="review_rating mt-4">View Packages</a>
+           </div>
           </div>
-        </div>
+
+          <div class="card card-section mt-4">
+            <div class="card-main top_deal_country_img">
+              <img class="w-100" src="assets/images/dubai.webp" alt="dubai" />
+                 <!-- <div class="discount_tab">
+                <span>30%</span>
+              </div> -->
+            </div>
+
+            <h6 class="px-2 mt-2">Dubai</h6>
+            <div class="d-flex justify-content-between p-2 holiday_theme_section">
+               <p >
+               <small>Starting from:</small>
+              <span class="review_rating">INR 17,400* / (PP)</span>
+              <!-- <span class="review_count">(1214 reviewes)</span> -->
+            </p>
+            <a href="#" class="review_rating mt-4">View Packages</a>
+           </div>
+          </div>
+
+          <div class="card card-section mt-4">
+            <div class="card-main top_deal_country_img">
+              <img class="w-100" src="assets/images/goa.webp" alt="Goa" />
+                 <!-- <div class="discount_tab">
+                <span>30%</span>
+              </div> -->
+            </div>
+
+            <h6 class="px-2 mt-2">Goa</h6>
+            <div class="d-flex justify-content-between p-2 holiday_theme_section">
+               <p >
+               <small>Starting from:</small>
+              <span class="review_rating">INR 7,800* / (PP)</span>
+              <!-- <span class="review_count">(1214 reviewes)</span> -->
+            </p>
+            <a href="#" class="review_rating mt-4">View Packages</a>
+           </div>
+          </div>
+
+          <div class="card card-section mt-4">
+            <div class="card-main top_deal_country_img">
+              <img class="w-100" src="assets/images/kashmir.webp" alt="kashmir" />
+            </div>
+
+            <h6 class="px-2 mt-2">Kashmir</h6>
+            <div class="d-flex justify-content-between p-2 holiday_theme_section">
+               <p >
+               <small>Starting from:</small>
+              <span class="review_rating">INR 15,800* / (PP)</span>
+            </p>
+            <a href="#" class="review_rating mt-4">View Packages</a>
+           </div>
+          </div>
+
+          <div class="card card-section mt-4">
+            <div class="card-main top_deal_country_img">
+              <img class="w-100" src="assets/images/kerala.webp" alt="kerala" />
+            </div>
+
+            <h6 class="px-2 mt-2">Kerala</h6>
+            <div class="d-flex justify-content-between p-2 holiday_theme_section">
+               <p >
+               <small>Starting from:</small>
+              <span class="review_rating">INR 11,800* / (PP)</span>
+            </p>
+            <a href="#" class="review_rating mt-4">View Packages</a>
+           </div>
+          </div>
+
+          <div class="card card-section mt-4">
+            <div class="card-main top_deal_country_img">
+              <img class="w-100" src="assets/images/maldives.webp" alt="maldives" />
+            </div>
+
+            <h6 class="px-2 mt-2">Maldives</h6>
+            <div class="d-flex justify-content-between p-2 holiday_theme_section">
+               <p >
+               <small>Starting from:</small>
+              <span class="review_rating">INR 40,800* / (PP)</span>
+            </p>
+            <a href="#" class="review_rating mt-4">View Packages</a>
+           </div>
+          </div>
+
+
+          <div class="card card-section mt-4">
+            <div class="card-main top_deal_country_img">
+              <img class="w-100" src="assets/images/Manali.webp" alt="Manali" />
+            </div>
+
+            <h6 class="px-2 mt-2">Manali</h6>
+            <div class="d-flex justify-content-between p-2 holiday_theme_section">
+               <p >
+               <small>Starting from:</small>
+              <span class="review_rating">INR 40,800* / (PP)</span>
+            </p>
+            <a href="#" class="review_rating mt-4">View Packages</a>
+           </div>
+          </div>
+
+          <div class="card card-section mt-4">
+            <div class="card-main top_deal_country_img">
+              <img class="w-100" src="assets/images/Mauritius.webp" alt="Mauritius" />
+            </div>
+
+            <h6 class="px-2 mt-2">Mauritius</h6>
+            <div class="d-flex justify-content-between p-2 holiday_theme_section">
+               <p >
+               <small>Starting from:</small>
+              <span class="review_rating">INR 40,800* / (PP)</span>
+            </p>
+            <a href="#" class="review_rating mt-4">View Packages</a>
+           </div>
+          </div>
+
+
+          <div class="card card-section mt-4">
+            <div class="card-main top_deal_country_img">
+              <img class="w-100" src="assets/images/shimla.webp" alt="shimla" />
+            </div>
+
+            <h6 class="px-2 mt-2">Shimla</h6>
+            <div class="d-flex justify-content-between p-2 holiday_theme_section">
+               <p >
+               <small>Starting from:</small>
+              <span class="review_rating">INR 40,800* / (PP)</span>
+            </p>
+            <a href="#" class="review_rating mt-4">View Packages</a>
+           </div>
+          </div>
+
+          <div class="card card-section mt-4">
+            <div class="card-main top_deal_country_img">
+              <img class="w-100" src="assets/images/singapore.webp" alt="singapore" />
+            </div>
+
+            <h6 class="px-2 mt-2">Singapore</h6>
+            <div class="d-flex justify-content-between p-2 holiday_theme_section">
+               <p >
+               <small>Starting from:</small>
+              <span class="review_rating">INR 40,800* / (PP)</span>
+            </p>
+            <a href="#" class="review_rating mt-4">View Packages</a>
+           </div>
+          </div>
+
+          <div class="card card-section mt-4">
+            <div class="card-main top_deal_country_img">
+              <img class="w-100" src="assets/images/srilanka.webp" alt="srilanka" />
+            </div>
+
+            <h6 class="px-2 mt-2">Sri Lanka</h6>
+            <div class="d-flex justify-content-between p-2 holiday_theme_section">
+               <p >
+               <small>Starting from:</small>
+              <span class="review_rating">INR 40,800* / (PP)</span>
+            </p>
+            <a href="#" class="review_rating mt-4">View Packages</a>
+           </div>
+          </div>
+
+
+          <div class="card card-section mt-4">
+            <div class="card-main top_deal_country_img">
+              <img class="w-100" src="assets/images/thailand.webp" alt="thailand" />
+            </div>
+
+            <h6 class="px-2 mt-2">Thailand</h6>
+            <div class="d-flex justify-content-between p-2 holiday_theme_section">
+               <p >
+               <small>Starting from:</small>
+              <span class="review_rating">INR 40,800* / (PP)</span>
+            </p>
+            <a href="#" class="review_rating mt-4">View Packages</a>
+           </div>
+          </div>
+
+
       </div>
     </section>
 
@@ -352,7 +476,14 @@
       });
     </script>
     <!-- promotional tours  ************************* Section end -->
+    <!-- Honeymoon Packages  ************************* Section start -->
     
+    <section class="mt-3 mb-3 text-center">
+    <div class="container">
+    <img src="assets/honey_moon_banner.webp" class="w-100 honeymoon-banner" alt="honey_moon_banner">
+</div>
+  </section>
+  <!-- Honeymoon Packages  ************************* Section end -->
     <!-- Special Offers  ************************* Section start -->
     <section class="mt-3 mb-3">
       <div class="container">
@@ -460,6 +591,7 @@
       </div>
     </section>
     <!-- newsletter section ************************* Section end -->
+    <?php include("review_section.php");?>
 
 
     <?php include("footer.php");?>
